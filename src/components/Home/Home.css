@@ -1,0 +1,8 @@
+.home-page{
+  display: grid;
+  grid-template-columns: 3fr 1fr
+}
+.home-page img{
+  width: 600px;
+  height: 600px;
+}

@@ -8,7 +8,11 @@ click here: https://storied-souffle-assignment-9.netlify.app/reviews/
 
 ---
 
-This is an rviews website and customer can give their reviews. Customer can give ratings. On dashBoards showing two types of chart they are line chart and bar chart. On blogs page describe the purpose of context API and what is symentic tag. Overall this is a nice website.
+- This is an rviews website and customer can give their reviews.
+- Customer can give ratings.
+  \*On dashBoards showing two types of chart they are line chart and bar chart.
+- On blogs page describe the purpose of context API and what is symentic tag.
+  \*Overall this is a nice website.
 
 <!-- # Getting Started with Create React App
 

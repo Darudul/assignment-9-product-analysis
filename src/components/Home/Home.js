@@ -1,37 +1,48 @@
+import { useNavigate } from "react-router";
 import CustomerReview from "../CustomerReview/CustomerReview";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-    <div className="home-page mt-5 me-5 ms-5">
       <div>
-        <h2 className="text-center fw-bold h1">
-          Your next perfume
-          <span className="d-md-block d-lg-block text-warning">
-            Your best perfume
-          </span>
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
-          nisi obcaecati quas ducimus numquam eos nihil vel tenetur iure.
-          Laboriosam distinctio ullam voluptatem consectetur. Itaque numquam
-          doloribus adipisci dolore. Vel!
-        </p>
-        <button className="px-3 py-1 border-0 rounded-pill text-primary fw-bold bg-warning ">
-          Live Demo
-        </button>
+        <div className="home-page mt-5 me-5 ms-5">
+          <div className="top-header">
+            <h2 className="text-center fw-bold h1 mb-4">
+              Your next perfume
+              <span className="d-md-block d-lg-block text-warning">
+                Your best perfume
+              </span>
+            </h2>
+            <p>
+              Every day here at Allure, our editors receive the newest perfumes
+              from the largest fragrance houses and the smallest indie brands
+              all before they make it to market, so we can get an exclusive look
+              — or sniff — at what the upcoming season's best perfumes will be.
+              If you think walking by a department store's fragrance counters is
+              intimidating, you should get a look at our work-from-home desks.
+              These aren't "natural scents," per se, but more so what Aftel
+              describes as fragrances with fresh and herbaceous properties to
+              them — a rather sharp turn from the traditional warmth associated
+              with perfumes for the cooler months. But that doesn't mean we're
+              bidding farewell to our floral fragrances or spicier perfumes for
+              good. There's room for all of them in our collections.
+            </p>
+            <button className="px-3 py-1 border-0 rounded-pill text-primary fw-bold bg-warning mt-4">
+              Live Demo
+            </button>
+          </div>
+          <div>
+            <img
+              src={
+                "https://i.ibb.co/SnFjZXM/laura-chouette-2-H-8-Wb-VPRx-M-unsplash.jpg"
+              }
+              alt=""
+            />
+          </div>
+        </div>
+        <CustomerReview></CustomerReview>
       </div>
-      <div>
-        <img
-          src={
-            "https://i.ibb.co/JqWnBDx/pesce-huang-mq73c-Wf9-ZAQ-unsplash.jpg"
-          }
-          alt=""
-        />
-      </div>
-    </div>
-    <CustomerReview></CustomerReview>
     </div>
   );
 };

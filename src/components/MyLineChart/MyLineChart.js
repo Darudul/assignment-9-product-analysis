@@ -43,6 +43,7 @@ const MyLineChart = () => {
 
   return (
     <div className="fw-bold">
+      <h4 className="text-center text-warning fw-bolder">Line Chart</h4>
       <LineChart width={400} height={400} data={data} color={{ color: "red" }}>
         <Line type="monotone" dataKey={"sell"} stroke="#4304e8"></Line>
         <XAxis dataKey={"month"}></XAxis>

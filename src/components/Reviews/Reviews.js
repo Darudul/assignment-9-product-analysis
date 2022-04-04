@@ -6,8 +6,8 @@ const Reviews = () => {
   const [reviews, setReviews] = useReviews();
   return (
     <div className="position-relative mb-5">
-      <h2 className="text-center mt-5 text-primary">
-        Customer review my awesome product: {reviews.length}
+      <h2 className="text-center mt-5 text-primary fw-bold">
+        What our Customer reviews!
       </h2>
       <div className="review-grid">
         {reviews.map((review) => (

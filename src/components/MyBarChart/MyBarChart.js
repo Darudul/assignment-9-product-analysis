@@ -50,6 +50,7 @@ const MyBarChart = () => {
   ];
   return (
     <div className=" fw-bold">
+       <h4 className=" text-warning fw-bolder">Bar Chart</h4>
       <h4 className="text-center mb-lg-4 text-info fw-bold">
         Invesment vs Revenue
       </h4>

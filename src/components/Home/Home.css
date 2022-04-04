@@ -1,8 +1,16 @@
-.home-page{
+.home-page {
   display: grid;
-  grid-template-columns: 3fr 1fr
+  grid-template-columns: 3fr 2fr;
+  margin-top: 30px;
 }
-.home-page img{
+.top-header{
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.home-page img {
   width: 600px;
   height: 600px;
+  margin-left: 80px;
+  margin-right: 50px;
 }

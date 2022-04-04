@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <h2>This is all country header</h2>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fw-bold">
-         <div className="container-fluid d-md-flex  justify-content-end">
-          <div className=" d-lg-flex  justify-content-end">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fw-bold ">
+        <div className="container-fluid d-md-flex  justify-content-end ">
+          <div className=" d-lg-flex  justify-content-end ">
             <Link className="nav-link active " aria-current="page" to="home">
               Home
             </Link>

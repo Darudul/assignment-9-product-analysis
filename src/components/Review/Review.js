@@ -5,7 +5,7 @@ import "./Review.css";
 import { useNavigate } from "react-router";
 const Review = (props) => {
   const { name, about, picture, id } = props.review;
-  
+
   return (
     <div className="review-item container mt-4">
       <div className="card-group h-100">
@@ -25,7 +25,6 @@ const Review = (props) => {
           </p>
         </div>
       </div>
-      
     </div>
   );
 };

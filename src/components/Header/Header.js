@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CustomLink from "../CustomHook/CustomLink";
+
 
 const Header = () => {
   return (
@@ -7,22 +8,22 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light fw-bold ">
         <div className="container-fluid d-md-flex  justify-content-end ">
           <div className=" d-lg-flex  justify-content-end ">
-            <Link className="nav-link active " aria-current="page" to="home">
+            <CustomLink className="nav-link active " aria-current="page" to="home">
               Home
-            </Link>
+            </CustomLink>
 
-            <Link className="nav-link active" to="reviews">
+            <CustomLink className="nav-link active" to="reviews">
               Reviews
-            </Link>
-            <Link className="nav-link active" to="dashboard">
+            </CustomLink>
+            <CustomLink className="nav-link active" to="dashboard">
               DashBoard
-            </Link>
-            <Link className="nav-link active" to="blogs">
+            </CustomLink>
+            <CustomLink className="nav-link active" to="blogs">
               Blogs
-            </Link>
-            <Link className="nav-link active" to="about">
+            </CustomLink>
+            <CustomLink className="nav-link active" to="about">
               About
-            </Link>
+            </CustomLink>
           </div>
         </div>
       </nav>

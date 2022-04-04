@@ -3,7 +3,7 @@
   grid-template-columns: 3fr 2fr;
   margin-top: 30px;
 }
-.top-header{
+.top-header {
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 50px;
@@ -13,4 +13,26 @@
   height: 600px;
   margin-left: 80px;
   margin-right: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .home-page {
+    grid-template-columns: 4fr;
+  }
+  .home-page img {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .home-page {
+    grid-template-columns: 4fr;
+  }
+  .home-page img {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .home-page {
+    grid-template-columns: 4fr 1fr;
+  }
 }

@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router";
 import CustomerReview from "../CustomerReview/CustomerReview";
 import "./Home.css";
 
@@ -41,8 +40,8 @@ const Home = () => {
             />
           </div>
         </div>
-        <CustomerReview></CustomerReview>
       </div>
+      <CustomerReview></CustomerReview>
     </div>
   );
 };

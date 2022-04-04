@@ -5,7 +5,6 @@ import Review from "../Review/Review";
 import "./CustomerReview.css";
 
 const CustomerReview = () => {
-
   const [reviews, setReviews] = useReviews();
   const slices = reviews.slice(0, 3);
   let navigate = useNavigate();
@@ -16,7 +15,7 @@ const CustomerReview = () => {
 
   return (
     <div className="position-relative mb-5">
-      <h2 className="text-center mt-5 text-primary fw-bold">
+      <h2 className="review text-center mt-5 text-primary fw-bold">
         Customer review my awesome product
       </h2>
       <div className="review-grid">

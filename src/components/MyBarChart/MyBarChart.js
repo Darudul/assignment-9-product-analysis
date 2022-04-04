@@ -50,10 +50,11 @@ const MyBarChart = () => {
   ];
   return (
     <div className=" fw-bold">
-       <h4 className=" text-warning fw-bolder">Bar Chart</h4>
+      <h4 className=" text-warning fw-bolder">Bar Chart</h4>
       <h4 className="text-center mb-lg-4 text-info fw-bold">
         Invesment vs Revenue
       </h4>
+
       <BarChart width={600} height={400} data={data}>
         <Legend
           width={100}
@@ -67,8 +68,8 @@ const MyBarChart = () => {
           }}
         />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-        <Bar dataKey={"investment"} fill="#8884d8" barSize={30} />
-        <XAxis dataKey={"month"}></XAxis>
+        <Bar dataKey="investment" fill="#8884d8" barSize={30} />
+        <XAxis dataKey="month"></XAxis>
         <YAxis></YAxis>
       </BarChart>
     </div>

@@ -8,9 +8,9 @@ const Home = () => {
         <div className="home-page mt-5 me-5 ms-5">
           <div className="top-header">
             <h2 className="header text-center fw-bold h1 mb-4">
-              Your next perfume
+              Choose your
               <span className="d-md-block d-lg-block text-warning">
-                Your best perfume
+                Best perfume
               </span>
             </h2>
             <p className="style-width">

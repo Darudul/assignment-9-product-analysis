@@ -7,13 +7,13 @@ const Home = () => {
       <div>
         <div className="home-page mt-5 me-5 ms-5">
           <div className="top-header">
-            <h2 className="text-center fw-bold h1 mb-4">
+            <h2 className="header text-center fw-bold h1 mb-4">
               Your next perfume
               <span className="d-md-block d-lg-block text-warning">
                 Your best perfume
               </span>
             </h2>
-            <p>
+            <p className="style-width">
               Every day here at Allure, our editors receive the newest perfumes
               from the largest fragrance houses and the smallest indie brands
               all before they make it to market, so we can get an exclusive look
@@ -27,7 +27,7 @@ const Home = () => {
               bidding farewell to our floral fragrances or spicier perfumes for
               good. There's room for all of them in our collections.
             </p>
-            <button className="px-3 py-1 border-0 rounded-pill text-primary fw-bold bg-warning mt-4">
+            <button className="button-style px-3 py-1 border-0 rounded-pill text-primary fw-bold bg-warning mt-4">
               Live Demo
             </button>
           </div>

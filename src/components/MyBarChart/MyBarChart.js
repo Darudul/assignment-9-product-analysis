@@ -52,11 +52,11 @@ const MyBarChart = () => {
     <div className=" fw-bold">
       <h4 className=" text-warning fw-bolder">Bar Chart</h4>
       <h4 className="text-center mb-lg-4 text-info fw-bold">
-        Invesment vs Revenue
+        Invesment VS Revenue
       </h4>
 
       <BarChart width={600} height={400} data={data}>
-        <Legend
+        {/* <Legend
           width={100}
           wrapperStyle={{
             top: 20,
@@ -66,9 +66,13 @@ const MyBarChart = () => {
             borderRadius: 3,
             lineHeight: "20px",
           }}
-        />
+        /> */}
+
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-        <Bar dataKey="investment" fill="#8884d8" barSize={30} />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="investment" stackId="a" fill="#8884d8" barSize={30} />
+        <Bar dataKey="revenue" stackId="a" fill="#82ca9d" barSize={30} />
         <XAxis dataKey="month"></XAxis>
         <YAxis></YAxis>
       </BarChart>

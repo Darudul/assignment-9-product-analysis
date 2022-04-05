@@ -1,5 +1,5 @@
 import React from "react";
-import { Line, LineChart, XAxis, YAxis } from "recharts";
+import { Legend, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 
 const MyLineChart = () => {
   const data = [
@@ -44,12 +44,18 @@ const MyLineChart = () => {
   return (
     <div className="fw-bold">
       <h4 className="text-center text-warning fw-bolder">Line Chart</h4>
-      <LineChart width={400} height={400} data={data} color={{ color: "red" }}>
+      <LineChart
+        width={400}
+        height={400}
+        data={data}
+        margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+      >
+        <Tooltip />
+        <Legend />
         <Line type="monotone" dataKey={"sell"} stroke="#4304e8"></Line>
         <XAxis dataKey={"month"}></XAxis>
         <YAxis></YAxis>
       </LineChart>
-      <p className="text-center">sell</p>
     </div>
   );
 };

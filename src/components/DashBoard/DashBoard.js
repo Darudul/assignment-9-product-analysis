@@ -1,14 +1,15 @@
 import React from "react";
+import "./DashBoard.css";
 import MyBarChart from "../MyBarChart/MyBarChart";
-
 import MyLineChart from "../MyLineChart/MyLineChart";
+import MyPieChart from "../MyPieChart/MyPieChart";
 
 const DashBoard = () => {
   return (
-    <div className="mt-5 ms-5 d-md-flex d-lg-flex d-sm-flex justify-content-around">
+    <div className="chart-style mt-5 ms-5 ">
       <MyLineChart></MyLineChart>
       <MyBarChart></MyBarChart>
-     
+      <MyPieChart></MyPieChart>
     </div>
   );
 };

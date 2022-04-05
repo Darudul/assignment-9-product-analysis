@@ -1,14 +1,17 @@
 import React from "react";
 import CustomLink from "../CustomHook/CustomLink";
 
-
 const Header = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fw-bold ">
         <div className="container-fluid d-md-flex  justify-content-end ">
           <div className=" d-lg-flex  justify-content-end ">
-            <CustomLink className="nav-link active " aria-current="page" to="home">
+            <CustomLink
+              className="nav-link active "
+              aria-current="page"
+              to="home"
+            >
               Home
             </CustomLink>
 

@@ -2,6 +2,7 @@ import React from "react";
 import { Pie, PieChart } from "recharts";
 
 const MyPieChart = () => {
+  // ttsgsyyuxgs
   const data01 = [
     {
       name: "Mar",
